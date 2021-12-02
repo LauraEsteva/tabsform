@@ -1,0 +1,47 @@
+/*Contents*/
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.inline li{
+    display: inline;
+}
+
+.row{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.logo{
+    width: max-content;
+}
+
+.logo__image svg{
+    height: 3em;
+    width: 3em;
+}
+
+.logo__image svg path{
+    fill: $white;
+}
+
+.logo__title{
+    margin-left: 1em;
+}
+
+.logo__title h1{
+    text-align: left;
+}

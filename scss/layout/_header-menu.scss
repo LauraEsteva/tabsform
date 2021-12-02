@@ -1,0 +1,22 @@
+.header-element {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin:auto;
+}
+
+.header-element h1{
+    text-align: center;
+}
+
+.subtitle{
+    background-color: $color-secondary;
+    padding: 0.2em 0;
+    width: 100%;
+    border-radius: 0.5vh;
+}
+
+.subtitle h2{
+    text-align: center;
+}
+
